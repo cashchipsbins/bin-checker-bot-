@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bin-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8291001795:AAFT1huvEo36yhuM8AYVVCkVR-aB5DT-0lE
