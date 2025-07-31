@@ -82,7 +82,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     BOT_TOKEN = os.getenv("BOT_TOKEN")
     if not BOT_TOKEN:
-        logger.error("❌ BOT_TOKEN не найден в переменных окружения.")
+        logger.error("8291001795:AAEHB171u_CQ5fXG0X5QDXpN8-wEY2AKbtY")
         return
 
     app = ApplicationBuilder().token(BOT_TOKEN).build()
